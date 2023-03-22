@@ -11,7 +11,6 @@ class UserModel {
 	@action setEmail(email: string) {
 		this.email = email
 	}
-
 	@action setPassword(password: string) {
 		this.password = password
 	}
