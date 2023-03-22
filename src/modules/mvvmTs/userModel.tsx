@@ -1,21 +1,20 @@
-import { observable, action } from 'mobx';
+import { observable, action } from 'mobx'
 
 class UserModel {
-    @observable name = '';
-    @observable email = '';
-    @observable password = '';
+	@observable name = ''
+	@observable email = ''
+	@observable password = ''
 
-    @action setName(name: string) {
-        this.name = name;
-    }
+	@action setName(name: string) {
+		this.name = name
+	}
+	@action setEmail(email: string) {
+		this.email = email
+	}
 
-    @action setEmail(email: string) {
-        this.email = email;
-    }
-
-    @action setPassword(password: string) {
-        this.password = password;
-    }
+	@action setPassword(password: string) {
+		this.password = password
+	}
 }
 
-export default UserModel;
+export default UserModel
