@@ -27,20 +27,20 @@ class UserForm extends React.Component<any, any> {
 			<div>
 				<input
 					type="text"
-					value={name}
+					// value={name}
 					placeholder={'이름을 입력하세요'}
 					onChange={this.handleNameChange}
 				/>
 				<input
 					type="email"
 					placeholder={'이메일을 입력하세요'}
-					value={email}
+					// value={email}
 					onChange={this.handleEmailChange}
 				/>
 				<input
 					type="password"
 					placeholder={'비밀번호를 입력하세요'}
-					value={password}
+					// value={password}
 					onChange={this.handlePasswordChange}
 				/>
 			</div>

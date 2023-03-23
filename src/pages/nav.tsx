@@ -11,10 +11,10 @@ export function Nav() {
 					<Link href={'/mvc'}>MVC</Link>
 				</li>
 				<li>
-					<Link href={'/mvvmJS'}>MVVM_js</Link>
+					<Link href={'/mvvmJS'}>MobX_js</Link>
 				</li>
 				<li>
-					<Link href={'/mvvmTS'}>MVVM_ts</Link>
+					<Link href={'/mvvmTS'}>MobX_ts</Link>
 				</li>
 			</ul>
 		</div>
